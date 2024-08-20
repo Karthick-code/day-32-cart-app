@@ -1,0 +1,42 @@
+/* src/pages/CartPage.css */
+
+.cart-page {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .cart-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .cart-item-card {
+    width: 300px;
+  }
+  
+  .cart-item-thumbnail {
+    object-fit: cover;
+  }
+  
+  .quantity-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .summary {
+    text-align: right;
+    margin-top: 20px;
+  }
+  
+  .quantity-controls span {
+    margin: 0 10px;
+    min-width: 20px;
+    text-align: center;
+  }
+  
